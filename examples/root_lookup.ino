@@ -51,9 +51,9 @@ using namespace axTLS;
 #include <WiFiClientSecure.h>
 #endif
 
-const char ssid[]     = "JacobMesh";
-const char password[] = "Relax.Here2";
-const char atsign[] = "colin";
+const char ssid[]     = "<YOUR SSID>";
+const char password[] = "<YOUR WIFI PASSWORD>";
+const char atsign[] = "<atSign to lookup e.g. colin>";
 #define server          "root.atsign.org"
 #define server_port            64
 #if defined(ARDUINO_AVR_MEGA2560)
